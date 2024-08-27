@@ -96,7 +96,7 @@ int main(void) {
 			UnloadImage(image);
 		}
 
-		if (mousepos.x > 80 && (IsMouseButtonPressed(MOUSE_BUTTON_RIGHT) || GetGestureDetected() == GESTURE_DRAG)) {
+		if (mousepos.x > 80 && (IsMouseButtonPressed(MOUSE_BUTTON_LEFT) || GetGestureDetected() == GESTURE_DRAG)) {
 			BeginTextureMode(target);
 			switch(selectedshapefr) {
 				case 0:
